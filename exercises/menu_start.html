@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/menu_styles.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Black Goose Bistro</title>
-        <link href="styles/menu_styles.css">
     </head>
     <body>
-        <h1>Black Goose Bistro | Summer Menu</h1>
+        <h1>Black Goose Bistro | <span class="summer-menu">Summer Menu</span></h1>
        
         <section>
-            Baker's Corner
-            Seekonk, Massachusetts
-            Hours
-            M|T 11–9 F|S 11–midnight
+            <section>
+                Location:
+                Baker's Corner
+                Seekonk, Massachusetts
+            </section>
+            <section>
+               Hours:
+               M|T 11–9 F|S 11–midnight
+            </section>
+
         </section>
 
         <main>
-            Appetizers
-            Black bean purses
-            Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. $3.95
+            <div class="row">
+                <section id="apps">
+                    <h2>Appetizers</h2>
+                    <h3 class="dish">Black bean purses</h3>
+                    <p>Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden.</p> <span class="price">$3.95</span>
 
-            Southwestern napoleons with lump crab — new item!
-            Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. $7.95
+                    <h3 class="dish">Southwestern napoleons with lump crab — <span class="new-item">new item!</span></h3>
+                    <p>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas.</p> <span class="price">$7.95</span>
+                </section>
 
-            Main courses
-            Shrimp sate kebabs with peanut sauce
-            Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. $12.95
+                <section id="mains">
+                    <h2>Main courses</h2>
+                    <h3 class="dish">Shrimp sate kebabs with peanut sauce</h3>
+                    <p>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice.</p> <span class="price">$12.95</span>
 
-            Grilled skirt steak with mushroom fricasee
-            Flavorful skirt steak marinated in asian flavors grilled as you like it*. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes. $16.95
+                    <h3 class="dish">Grilled skirt steak with mushroom fricasee</h3>
+                    <p>Flavorful skirt steak marinated in asian flavors grilled as you like it*. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes.</p> <span class="price">$16.95</span>
 
-            Jerk rotisserie chicken with fried plantains —new item!
-            Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. $12.95
+                    <h3 class="dish">Jerk rotisserie chicken with fried plantains —<span class="new-item">new item!</span></h3>
+                    <p>Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango.</p> <span class="price">$12.95</span>
 
-            * We are required to warn you that undercooked food is a health risk.
+                </section>
+
+            </div>
+            <p><strong>* We are required to warn you that undercooked food is a health risk.</strong></p>
         </main>
         <footer><a href="../index.html">Return Home</a></footer>
     </body>
